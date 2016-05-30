@@ -12,20 +12,20 @@ Commands used for demo:
 
 4. ```cd Docker-POC```
 
-4. ```mkdir docker-shared-files```
+5. ```mkdir docker-shared-files```
 
-5. ```docker build -t docker-class-demo:latest .```
+6. ```docker build -t docker-class-demo:latest .```
 
-6. ```sw_vers``` 
+7. ```sw_vers``` 
 
-7. ```docker run -t -i -v ~/Desktop/docker-shared-files://demo-directory docker-class-demo /bin/bash```
+8. ```docker run -t -i -v ~/Desktop/docker-shared-files://demo-directory docker-class-demo /bin/bash```
 
-8. ```cat /etc/lsb-release```
+9. ```cat /etc/lsb-release```
 
-9. ```ls```
+10. ```ls```
 
-10. ```cd Docker-POC```
+11. ```cd Docker-POC```
 
-11. ```python3 SortingTest.py```
+12. ```python3 SortingTest.py```
 
-12. ```you-get -o /demo-directory  'https://www.youtube.com/watch?v=dQw4w9WgXcQ'```
+13. ```you-get -o /demo-directory  'https://www.youtube.com/watch?v=dQw4w9WgXcQ'```
