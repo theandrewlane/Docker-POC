@@ -93,7 +93,7 @@ def getrand():
 
 def main():
 	""" Runs a comparison of the different basic types of sorts. """
-	print()
+	print("Running a comparison of the different basic types of sorts...")
 	selec= timeit.timeit(stmt='selection_sort(getrand())', setup='from __main__ import selection_sort, getrand', number=5000)
 	print("Selection sort: {0}s".format(round(selec, 4)))
 	bubb= timeit.timeit(stmt='bubble_sort(getrand())', setup='from __main__ import bubble_sort, getrand', number=5000)
