@@ -4,23 +4,23 @@
 
 Commands used for demo:
 
-1. ```docker --version```
+1.  ```docker --version```
   
-2. ```sw_vers```
+2.  ```sw_vers```
 
-3. ```git clone https://github.com/theandrewlane/Docker-POC```
+3.  ```git clone https://github.com/theandrewlane/Docker-POC```
 
-4. ```cd Docker-POC```
+4.  ```cd Docker-POC```
 
-5. ```mkdir docker-shared-files```
+5.  ```mkdir docker-shared-files```
 
-6. ```docker build -t docker-class-demo:latest .```
+6.  ```docker build -t docker-class-demo:latest .```
 
-7. ```sw_vers``` 
+7.  ```sw_vers``` 
 
-8. ```docker run -t -i -v ~/Desktop/docker-shared-files://demo-directory docker-class-demo /bin/bash```
+8.  ```docker run -t -i -v ~/Desktop/docker-shared-files://demo-directory docker-class-demo /bin/bash```
 
-9. ```cat /etc/lsb-release```
+9.  ```cat /etc/lsb-release```
 
 10. ```ls```
 
