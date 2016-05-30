@@ -3,12 +3,11 @@
 ### This Dockerfile uses ```apt-get``` to install Python 3 and Git. This demo runs a python script and a python program for downloading videos. 
 
 Commands used for demo:
-
-  1.  ```docker --version```
+  #.```docker --version```
   
-  2.  ```sw_vers```
+  #.  ```sw_vers```
 
-  3.  ```git clone https://github.com/theandrewlane/Docker-POC```
+  #.  ```git clone https://github.com/theandrewlane/Docker-POC```
 
 4.  ```cd Docker-POC```
 
