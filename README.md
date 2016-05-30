@@ -3,28 +3,16 @@
 ### This Dockerfile uses ```apt-get``` to install Python 3 and Git. This demo runs a python script and a python program for downloading videos. 
 
 Commands used for demo:
-  #.```docker --version```
-  
-  #.  ```sw_vers```
-
-  #.  ```git clone https://github.com/theandrewlane/Docker-POC```
-
-4.  ```cd Docker-POC```
-
-5.  ```mkdir docker-shared-files```
-
-6.  ```docker build -t docker-class-demo:latest .```
-
-7.  ```sw_vers``` 
-
-8.  ```docker run -t -i -v ~/Desktop/docker-shared-files://demo-directory docker-class-demo /bin/bash```
-
-9.  ```cat /etc/lsb-release```
-
-10. ```ls```
-
-11. ```cd Docker-POC```
-
-12. ```python3 SortingTest.py```
-
-13. ```you-get -o /demo-directory  'https://www.youtube.com/watch?v=dQw4w9WgXcQ'```
+- ```docker --version```
+- ```sw_vers```
+- ```git clone https://github.com/theandrewlane/Docker-POC```
+- ```cd Docker-POC```
+- ```mkdir docker-shared-files```
+- ```docker build -t docker-class-demo:latest .```
+- ```sw_vers``` 
+- ```docker run -t -i -v ~/Desktop/docker-shared-files://demo-directory docker-class-demo /bin/bash```
+- ```cat /etc/lsb-release```
+- ```ls```
+- ```cd Docker-POC```
+- ```python3 SortingTest.py```
+- ```you-get -o /demo-directory  'https://www.youtube.com/watch?v=dQw4w9WgXcQ'```
