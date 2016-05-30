@@ -4,11 +4,11 @@
 
 Commands used for demo:
 
-1.  ```docker --version```
+  1.  ```docker --version```
   
-2.  ```sw_vers```
+  2.  ```sw_vers```
 
-3.  ```git clone https://github.com/theandrewlane/Docker-POC```
+  3.  ```git clone https://github.com/theandrewlane/Docker-POC```
 
 4.  ```cd Docker-POC```
 
