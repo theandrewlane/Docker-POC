@@ -1,21 +1,13 @@
-FROM ubuntu:latest
-MAINTAINER Andrew Lane "theeandrewlane@gmail.com"
-RUN apt-get update && \
-  apt-get install -y python3 git 
-  # Define working directory.
 
-RUN git clone https://github.com/soimort/you-get.git /myapp/
+FROM ubuntu:latest	
+MAINTAINER Andrew Lane / Nathan	
 
-RUN cd /myapp &&  python3 ./setup.py install
+RUN apt-get update -y && apt-get install -y --force-yes git python
 
-MOUNT .:/myapp                                
-
-WORKDIR /myapp
-
-
-# Clean-up
-RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /myapp/
-
-# Define default command.
-CMD ["bash"]
-
+WORKDIR /
+RUN mkdir pydemo && cd /pydemo
+RUN git clone https://github.com/theandrewlane/Docker-POC
+RUN cd .. && mkdir yougetdemo && cd /yougetdemo
+RUN git clone https://github.com/soimort/you-get.git
+RUN cd .. && mkdir /demo-directory
+VOLUME /demo-directory
