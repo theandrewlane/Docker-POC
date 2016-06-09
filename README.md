@@ -1,11 +1,11 @@
-# Docker-POC - CS3750
+# Docker Proof Of Concept Demo - ```CS3750```
 
 ![Docker](https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_(container_engine)_logo.png?raw=true)
 
-### This Dockerfile uses ```apt-get``` to install Python 3 and Git. This demo runs a python script and a python program for downloading videos. 
+### This Dockerfile uses ```apt-get``` to install Python 3 and Git. After the install, it uses Python's ```pip``` to install an application called ```you-get```. This demo will execute a Python script (executing various sorting algorithms), and download media from ```you-get``` to the host directory created in step 5. 
 
-Commands used for demo:
-## Host Machine:
+## Commands used for demo:
+### Host Machine:
 1.  ```docker --version```
 2. ```sw_vers```
   - Show the current running OS
@@ -20,7 +20,7 @@ Commands used for demo:
   - Show the current running OS
 <hr>
 
-## Docker Container
+### Docker Container:
 
 1. ```docker run -t -i -v ~/Desktop/docker-shared-files://demo-directory docker-class-demo /bin/bash``` 
   - Create a docker bin/bash shell, link to shared folder
