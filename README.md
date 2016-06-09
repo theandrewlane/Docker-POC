@@ -2,7 +2,7 @@
 
 ![Docker](https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_(container_engine)_logo.png?raw=true)
 
-#### This Dockerfile uses ```apt-get``` to install Python 3 and Git. After the install, it uses Python's ```pip``` to install an application called ```you-get```. This demo will execute a Python script (executing various sorting algorithms), and download media from ```you-get``` to the host directory created in step 5. 
+#### The Dockerfile contained within the root of this repository uses ```apt-get``` to install Python 3 and Git. After the install, it uses Python's ```pip``` to install an application called ```you-get```. This demo will execute a Python script (executing various sorting algorithms), and download media from ```you-get``` to the host directory created in step 5. 
 
 <hr>
 ### Commands used for demo:
