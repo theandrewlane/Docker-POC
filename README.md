@@ -4,6 +4,7 @@
 
 #### This Dockerfile uses ```apt-get``` to install Python 3 and Git. After the install, it uses Python's ```pip``` to install an application called ```you-get```. This demo will execute a Python script (executing various sorting algorithms), and download media from ```you-get``` to the host directory created in step 5. 
 
+<hr>
 ### Commands used for demo:
 #### Host Machine:
 1.  ```docker --version```
