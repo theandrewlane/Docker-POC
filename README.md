@@ -1,4 +1,4 @@
-# Docker Proof Of Concept Demo - ```CS3750```
+# Docker Proof Of Concept Demo - CS3750
 
 ![Docker](https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_(container_engine)_logo.png?raw=true)
 
